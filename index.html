@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body class="dark-theme">
+    <div class="transition-wrapper">
+        <div id="background" class="parallax-bg"></div>
+        <div class="noise-overlay"></div>
+        
+        <nav>
+            
+       
+            <div class="nav-links" data-aos="fade-left">
+                <a href="#home" class="nav-link hover-effect">Home</a>
+                <a href="#work" class="nav-link hover-effect">Work</a>
+                <a href="#about" class="nav-link hover-effect">About</a>
+                <a href="#contact" class="nav-link hover-effect">Contact</a>
+            </div>
+        </nav>
+
+        <main>
+            <section id="home" class="hero slide-in">
+                <div class="hero-content" data-aos="zoom-in">
+                    <h1 class="glitch-text">Creative Developer</h1>
+                    <p class="subtitle typing-animation">Piyush Solanki</p>
+                    <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+                        <a href="#work" class="cta-primary pulse-effect">View Work</a>
+                        <a href="#contact" class="cta-secondary hover-float">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work" class="work fade-up">
+                <h2 class="reveal" data-aos="fade-up">Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card reveal" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-content hover-transform">
+                            <img src="Screenshot 2025-01-31 231814.png" alt="Skill Share Platform Preview" class="project-image" loading="lazy">
+                            <h3 class="project-title">Skill Share Exchange Platform</h3>
+                            <p class="project-description">A dynamic platform connecting people to exchange and learn skills. Features include real-time matching, skill categorization, and interactive learning sessions.</p>
+                            <div class="project-tags">
+                                <span class="tag-animation">html</Html></span>
+                                <span class="tag-animation">css</span>
+                                <span class="tag-animation">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/PiyushSolanki038/AI_attendance_system_enhanced_gui.git" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="project-card reveal" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-content hover-transform">
+                            <img src="image.png" alt="AI Attendance System Preview" class="project-image" loading="lazy">
+                            <h3 class="project-title">AI Attendance System GUI</h3>
+                            <p class="project-description">An intelligent attendance tracking system with facial recognition, real-time monitoring, and automated report generation.</p>
+                            <div class="project-tags">
+                                <span class="tag-animation">Python</span>
+                                <span class="tag-animation">OpenCV</span>
+                                <span class="tag-animation">TensorFlow</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/PiyushSolanki038/SKILL-EXCHANGE-WEBSITE.git" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+            </section>
+
+            <section id="about" class="about fade-up">
+                <h2 class="reveal" data-aos="fade-up">About Me</h2>
+                <div class="about-content reveal" data-aos="fade-up" data-aos-delay="200">
+                    <div class="about-text">
+                        <p>As a B.Tech Computer Science and Engineering student, I'm passionate about creating innovative digital experiences. My focus is on leveraging cutting-edge web technologies to develop interactive and immersive applications.</p>
+                    </div>
+                    <div class="profile-section">
+                        <img src="WhatsApp Image 2025-01-31 at 23.50.55_4d54d270.jpg" alt="Piyush Solanki" class="profile-photo">
+                        <div class="profile-details">
+                            <h3>Piyush Solanki</h3>
+                            <p>B.Tech Computer Science and Engineering</p>
+                            <p>piyushsolanki381@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill-cloud">
+                            <div class="skill-row-top">
+                                <div class="skill-item">
+                                    <i class="fab fa-js"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-react"></i>
+                                    <span>React</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-node"></i>
+                                    <span>Node.js</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-cube"></i>
+                                    <span>Three.js</span>
+                                </div>
+                            </div>
+                            <div class="skill-row-bottom">
+                                <div class="skill-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>WebGL</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-magic"></i>
+                                    <span>GSAP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-container">
+                        <div class="particles">
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                        </div>
+                        <!-- existing skill-cloud content -->
+                    </div>
+            </section>
+            <section id="contact" class="contact fade-up">
+                <h2 class="reveal" data-aos="fade-up">Let's Connect</h2>
+                <form class="contact-form reveal" data-aos="fade-up" data-aos-delay="200" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" required class="input-animation" id="name" name="name" aria-required="true">
+                        <label for="name" class="label-animation">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" required class="input-animation" id="email" name="email" aria-required="true">
+                        <label for="email" class="label-animation">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" required class="input-animation" id="subject" name="subject" aria-required="true">
+                        <label for="subject" class="label-animation">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea required class="input-animation" id="message" name="message" aria-required="true"></textarea>
+                        <label for="message" class="label-animation">Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn pulse-effect">Send Message</button>
+                </form>
+
+                
+            </section>
+        </main>
+
+        <footer class="footer fade-up">
+            <div class="footer-content">
+                <p>&copy; 2024 Piyush Portfolio. All rights reserved.</p>
+                <div class="footer-links">
+                    
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script src="validation.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
